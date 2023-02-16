@@ -3,6 +3,7 @@ const { connect } = require('http2');
 const mongoose = require('mongoose');
 // const url = 'mongodb://127.0.0.1:27017';
 console.log("===>",process.env.MONGO_URL)
+console.log("hellow faiz how are you , fine here");
 const Connectdb = async ()=>{
     try{
         const conn = await mongoose.connect(process.env.MONGO_URL)
